@@ -45,7 +45,7 @@ img {
 .container {
     width: 1360px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 .site-inner {
@@ -95,65 +95,106 @@ img {
     'img12 img13 img14 img15'
     'img12 img13 img14 img15'
     ;
-
+    
 }
 
 .img-1 {
     grid-area: img1;
+    position: relative;
 }
 
 .img-2 {
     grid-area: img2;
+    position: relative;
 }
 
 .img-3 {
     grid-area: img3;
+    position: relative;
 }
 
 .img-4 {
     grid-area: img4;
+    position: relative;
 }
 
 .img-5 {
     grid-area: img5;
+    position: relative;
 }
 
 .img-6 {
     grid-area: img6;
+    position: relative;
 }
 
 .img-7 {
     grid-area: img7;
+    position: relative;
 }
 
 .img-8 {
     grid-area: img8;
+    position: relative;
 }
 
 .img-9 {
     grid-area: img9;
+    position: relative;
 }
 
 .img-10 {
     grid-area: img10;
+    position: relative;
 }
 
 .img-11 {
     grid-area: img11;
+    position: relative;
 }
 
 .img-12 {
     grid-area: img12;
+    position: relative;
 }
 
 .img-13 {
     grid-area: img13;
+    position: relative;
 }
 
 .img-14 {
     grid-area: img14;
+    position: relative;
 }
 
 .img-15 {
     grid-area: img15;
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    z-index: 99;
+    bottom: 30px;
+    left: 32px;
+}
+
+.img-title {
+    margin: 0;
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.img-desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
 }
