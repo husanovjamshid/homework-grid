@@ -78,25 +78,24 @@ img {
 
 .wrapper {
     display: grid;
-    
+    grid-template-columns: repeat(4, 310px);
+    align-items: flex-start;
+    gap: 40px;
     grid-template-areas: 
     'img1 img2 img3 img4'
-    'img5 img2 img7 img8'
-    'img5 img6 img7 img11'
-    'img9 img6 img14 img11'
-    'img9 img10 img14 img15'
-    'img9 img10 img14 img15'
+    'img5 img2 img3 img8'
+    'img5 img6 img7 img8'
+    'img5 img6 img7 img8'
+    'img9 img6 img7 img11'
+    'img9 img10 img7 img11'
+    'img9 img10 img7 img11'
+    'img9 img10 img14 img11'
+    'img9 img10 img14 img11'
+    'img9 img13 img14 img15'
     'img12 img13 img14 img15'
-
-  
-   
+    'img12 img13 img14 img15'
     ;
 
-    grid-template-columns: repeat(4, 310px);
-    grid-template-rows: repeat(4, auto);
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 10px;
 }
 
 .img-1 {
